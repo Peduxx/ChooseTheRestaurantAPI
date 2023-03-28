@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ChooseTheRestaurantApi</name>
+    </assembly>
+    <members>
+        <member name="M:ChooseTheRestaurantApi.Controllers.RestaurantController.CreateRestaurant(ChooseTheRestaurantApi.Services.Dtos.Request.RestaurantRequestDto)">
+            <summary>
+            Create new restaurant
+            </summary>
+            <param name="request"></param>
+            <returns>
+            RestaurantResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Controllers.RestaurantController.GetAllRestaurants">
+            <summary>
+            Get all restaurants
+            </summary>
+            <returns>
+            RestaurantResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Controllers.RestaurantController.GetMostVotedRestaurant">
+            <summary>
+            Get the most voted restaurant
+            </summary>
+            <returns>
+            RestaurantResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Controllers.RestaurantController.ResetRestaurants">
+            <summary>
+            Reset the restaurant's table
+            </summary>
+            <returns>
+            RestaurantResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Controllers.VoteController.CreateVote(ChooseTheRestaurantApi.Services.Dtos.Request.VoteRequestDto)">
+            <summary>
+            Create new vote
+            </summary>
+            <param name="request"></param>
+            <returns>
+            VoteResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Controllers.VoteController.GetAllVotes">
+            <summary>
+            Get all computed votes
+            </summary>
+            <returns>
+            VoteResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Controllers.VoteController.ResetVotes">
+            <summary>
+            Reset vote's table
+            </summary>
+            <returns>
+            VoteResponseDto
+            </returns>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response>
+        </member>
+        <member name="T:ChooseTheRestaurantApi.Migrations.firstmigration">
+            <inheritdoc />
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Migrations.firstmigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Migrations.firstmigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ChooseTheRestaurantApi.Migrations.firstmigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
